@@ -10,3 +10,13 @@ Whenever project uses Maven (pom.xml file exists in project directory) simply in
 	$ mvn -q package
 
 from directory containing pom.xml file (provided that you have Maven installed).
+
+## Specific assignment instructions
+
+### Assignment 2, running BuggyLongTest
+
+After building (JUnit test failure is not issue here) invoke:
+
+	$ cd target/classes && java edu.vuum.mocca.BuggyLongTest -classpath . && cd ../..
+
+from assignment root directory.
