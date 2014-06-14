@@ -13,10 +13,18 @@ from directory containing pom.xml file (provided that you have Maven installed).
 
 ## Specific assignment instructions
 
-### Assignment 2, running BuggyLongTest
+### Assignment from week 2, running BuggyLongTest
 
 After building (JUnit test failure is not issue here) invoke:
 
 	$ cd target/classes && java edu.vuum.mocca.BuggyLongTest -classpath . && cd ../..
+
+from assignment root directory.
+
+### Assignment from week 4, running PingPongRight
+
+After filling all the TODOs and building invoke:
+
+	$ cd target/classes && java edu/vuum/mocca/PingPongRight -classpath . && cd ../..
 
 from assignment root directory.
