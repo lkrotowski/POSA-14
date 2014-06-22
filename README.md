@@ -11,6 +11,18 @@ Whenever project uses Maven (pom.xml file exists in project directory) simply in
 
 from directory containing pom.xml file (provided that you have Maven installed).
 
+If project does not use Maven (Android projects) you need to fill local.properties file with sdk.dir=/full/path/to/your/sdk/directory and invoke (Apache Ant needed):
+
+	$ ant debug
+
+After successful build (provided you have emulator running or device connected):
+
+	$ ant installd
+
+If it's test project you can run tests with:
+
+	$ ant test
+
 ## Specific assignment instructions
 
 ### Assignment from week 2, running BuggyLongTest
