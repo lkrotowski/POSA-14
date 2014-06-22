@@ -40,3 +40,12 @@ After filling all the TODOs and building invoke:
 	$ cd target/classes && java edu/vuum/mocca/PingPongRight -classpath . && cd ../..
 
 from assignment root directory.
+
+### Assignment from week 5, running console PingPong
+
+After building invoke:
+
+	$ java -cp ./bin/classes edu.vuum.mocca.Main
+
+from W5-A4-Android directory.
+
